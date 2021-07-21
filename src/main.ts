@@ -8,5 +8,6 @@ if (environment.production) {
   enableProdMode();
 }
 
+//bootstrap (starts) out angular app by passing a 'AppModule' into the method
 platformBrowserDynamic().bootstrapModule(AppModule)
   .catch(err => console.error(err));
